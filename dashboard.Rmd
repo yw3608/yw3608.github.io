@@ -49,6 +49,8 @@ Column {data-width=350}
 rest_inspec %>% 
   mutate(street = fct_reorder(street, score)) %>% 
   plot_ly(y = ~score, color = ~street, type = "box", colors = "viridis")
+
+
 ```
 
 ### Chart C
