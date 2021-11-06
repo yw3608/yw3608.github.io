@@ -4,12 +4,18 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+   
 ---
 
-# This is Yuxuan's awesome website
-  This is me!
+# Welcome!
+
   
 ![](images/download.png)
 
+
+# Link to Github repos!
+* [Github](https://github.com/yw3608/p8105_hw1_yw3608)
+
+
+# Resume!
 [About me](about.html)
