@@ -9,6 +9,8 @@ navbar:
       href: mailto:<yuxuanw808@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/yw3608/
+    - text: "course webpage"
+      href: course-page.html
 output:
   html_document:
     theme: cerulean

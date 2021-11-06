@@ -13,6 +13,9 @@ output:
 ![](images/download.png)
 
 
-
 # Resume!
-[About me](about.html)
+* [About me](about.html)
+* [course page](course-page.html)
+
+# Course page that I’m currently taking
+* [P8105](https://www.p8105.com/index.html)
