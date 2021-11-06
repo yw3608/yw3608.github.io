@@ -7,14 +7,15 @@ navbar:
       href: about.html
     - text: "Dashboard"
       href: dashboard.html
-    - text: "plotly"
+    - text: "Plotly"
       href: plotly.html
+    - text: "Course Webpage"
+      href: course-page.html
     - icon: fa-envelope fa-lg
       href: mailto:<yuxuanw808@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/yw3608/
-    - text: "course webpage"
-      href: course-page.html
+    
 output:
   html_document:
     theme: cerulean

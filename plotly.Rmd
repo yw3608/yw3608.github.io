@@ -47,7 +47,7 @@ rest_inspec %>%
 
 
 
-#density plot
+# density plot
 ```{r}
 density_ggplot = 
   rest_inspec %>%
