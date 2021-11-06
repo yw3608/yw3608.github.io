@@ -17,7 +17,6 @@ output:
 * [About me](about.html)
 
 
-* [course page](course-page.html)
 
 
 
