@@ -1,0 +1,23 @@
+---
+title: "Yuxuan's awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+   
+---
+
+# Welcome!
+
+  
+![](images/download.png)
+
+
+# Resume!
+* [About me](about.html)
+
+
+
+
+
+
