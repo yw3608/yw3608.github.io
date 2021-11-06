@@ -16,8 +16,8 @@ output:
 # Resume!
 * [About me](about.html)
 
-# professional website
-* [coursewebpage](https://www.p8105.com/index.html)
+# Professional Website
+* [Course Webpage](https://www.p8105.com/index.html)
 
 
 
