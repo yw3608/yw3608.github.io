@@ -7,15 +7,6 @@ output:
    
 ---
 
-# Welcome!
-
-  
-![](images/download.png)
-
-
-# Resume!
-* [About me](about.html)
-
 
 
 
