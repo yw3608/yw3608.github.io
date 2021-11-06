@@ -1,0 +1,34 @@
+---
+title: "About me!"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This page has information about me.
+ Yuxuan Wang
+ yuxuanw808@gmail.com|C: 814-699-2121|State College, PA16803
+
+
+Skills
+Experience with R, C++, Minitab, Excel, Microsoft Word, PowerPoint, & Solid Works
+Student progress analysis
+Tutoring and coaching
+Test results interpretation
+Specimen handling protocols
+Sample checking
+
+Experience
+
+
+
+Education and Training
+Bachelor of Science in Applied Statistics & Minored in Economics
+The Pennsylvania State University, Capital College
+GPA: 3.51, Dean's List
+Major in Applied statistics
+Minor in Economics
+
+
