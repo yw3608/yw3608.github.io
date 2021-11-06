@@ -6,9 +6,9 @@ navbar:
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<yuxuanw808@gmail.com.com>
+      href: mailto:<yuxuanw808@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<yw3608>/
+      href: http://github.com/yw3608/
 output:
   html_document:
     theme: cerulean

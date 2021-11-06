@@ -13,9 +13,6 @@ output:
 ![](images/download.png)
 
 
-# Link to Github repos!
-* [Github](https://github.com/yw3608/p8105_hw1_yw3608)
-
 
 # Resume!
 [About me](about.html)
