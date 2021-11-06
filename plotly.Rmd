@@ -6,6 +6,81 @@ output:
     toc_float: true
    
 ---
+```{r}
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+library(plotly)
+
+```
+
+
+# barplot
+```{r}
+data("rest_inspec")
+rest_inspec = 
+rest_inspec %>% 
+    select(boro,street ,inspection_type,building, score) %>% 
+    drop_na() %>% 
+    filter(
+    boro== "MANHATTAN",
+    inspection_type == "Cycle Inspection / Initial Inspection",
+    score %in% 35:45
+   )
+   
+
+rest_inspec %>% 
+  count(street) %>% 
+  mutate(street = fct_reorder(street, n)) %>% 
+  plot_ly(x = ~street, y = ~n, color = ~street, type = "bar", colors = "viridis")
+
+
+```
+
+
+# boxplot
+```{r}
+rest_inspec %>% 
+  mutate(street = fct_reorder(street, score)) %>% 
+  plot_ly(y = ~score, color = ~street, type = "box", colors = "viridis")
+```
+
+
+
+#density plot
+```{r}
+density_ggplot = 
+  rest_inspec %>%
+  
+    select(boro,street ,inspection_type, building,score) %>% 
+  drop_na() %>% 
+    filter(
+    boro== "MANHATTAN",
+    inspection_type == "Cycle Inspection / Initial Inspection",
+    score %in% 35:45,
+    building %in% 0:2000
+   ) %>%
+  filter( 
+    street %in% c(
+    "10 AVENUE", 
+    "7 AVENUE",
+    "8 AVENUE",
+    "WEST 35 STREET",
+    "W 32ND ST",
+    "BROADWAY",
+    "west 34th st",	
+    "5 AVENUE",	
+    "7 AVENUE",
+    "8TH AVE",
+    "9 AVENUE"
+   
+)) %>% 
+  ggplot(aes(x = street, fill = building ),colors = "viridis") +
+  geom_density(alpha = 0.25) 
+
+
+ggplotly(density_ggplot)
+```
 
 
 
