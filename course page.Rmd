@@ -6,6 +6,9 @@ output:
     toc_float: true
    
 ---
+This course is a data science coding course.
+Main language used in this page is R.
+For more information, please visit:https://www.p8105.com/index.html
 
-https://www.p8105.com/index.html
+[Return](index.html)
 

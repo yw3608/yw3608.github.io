@@ -4,12 +4,12 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+  
 ---
 
-# This page has information about me.
+# This page has information about me
  Yuxuan Wang
- yuxuanw808@gmail.com|C: 814-699-2121|State College, PA16803
+ yuxuanw808@gmail.com | C: 814-699-2121 | Fort Lee, NJ07024
 
 
 Skills
@@ -32,5 +32,11 @@ The Pennsylvania State University, Capital College
 GPA: 3.51, Dean's List
 Major in Applied statistics
 Minor in Economics
+
+
+
+[Return](index.html)
+
+
 
 
